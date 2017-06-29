@@ -1,9 +1,9 @@
 /* styles in src/style directory are applied to the whole page */
-body {
+body.main {
   background: #0147A7;
   color: #fff;
 }
-body. {
+body {
   background: #595959;
   color: #fff;
 }

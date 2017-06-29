@@ -30,7 +30,7 @@ anand.config(function($mdThemingProvider, $stateProvider,$urlRouterProvider) {
 
     $stateProvider
         .state('/main/home', {
-            controller: 'HomeController as vm',
+            controller: 'LoginController as vm',
             templateUrl:'./tmpl/main.html'
         })
         .state('/main/login', {         

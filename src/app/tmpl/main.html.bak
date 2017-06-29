@@ -1,0 +1,21 @@
+<md-content>
+</md-content>
+<div layout="column" >
+  <md-card  md-theme="default" >
+ <md-card-content>
+   <md-input-container>
+     <label>Username</label>
+     <input ng-model="vm.username">
+   </md-input-container>
+   <md-input-container>
+     <label>Password</label>
+     <input ng-model="vm.password" type="password">
+   </md-input-container>
+ </md-card-content>
+
+ <md-card-actions layout="row" layout-align="end center">
+   <md-button class="md-primary" ng-click="vm.doLogin()">Login</md-button>
+   <md-button class="md-primary" ng-click="vm.cancel()">Cancel</md-button>
+ </md-card-actions>
+  </md-card >
+</div>

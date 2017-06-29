@@ -7,7 +7,7 @@
    <md-input-container>
      <label>Username</label>
      <input required name="username" ng-model="vm.username" type="text">
-	  <div ng-messages="loginForm.username.$error" role="alert" multiple>
+	  <div ng-message="loginForm.username.$error" role="alert" multiple>
               <div ng-message="required" class="my-message">Please enter Username.</div>
       </div>
    </md-input-container>

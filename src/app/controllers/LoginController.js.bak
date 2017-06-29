@@ -8,7 +8,7 @@ function login($scope,$http,$state){
   vm.password="";
   vm.doLogin=function (){
     console.info('Logging in');
-	$state.go('/main/home', {stateParamKey: '/main/home'});
+	$state.go('/main/home', {stateParamKey: 'Hello'});
   };
   vm.launchLoginDialog=launchLoginDialog;
   vm.cancel=cancel;
